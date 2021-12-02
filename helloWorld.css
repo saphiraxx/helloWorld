@@ -1,0 +1,57 @@
+body {
+    background-color: #f1c97d;  
+    text-align: center;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 95vh;
+}
+
+h1 {
+    font-family: 'Welcome December';
+    font-size: 11em;
+    letter-spacing: 16px;
+    height: 105px;
+    text-shadow: 0 0 0.2em rgba(81, 255, 0, 0.397);
+}
+
+h2 {
+    width: 400px;
+    height: 50px;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#arcoIris {
+    display: flex; 
+    width: 90vh;
+    height: 500px;
+    display: none;
+}
+
+#fred {
+    position: relative;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 30vh;
+    height: 30vh;
+    display: none;
+}
+
+footer {
+    font-size: 1.5rem;
+    text-shadow: 0 0 0.2em rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'Welcome December';
+    src: url('./fonts/Welcome\ December.otf') format('opentype');
+
+}
